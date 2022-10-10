@@ -8,10 +8,18 @@ const Home = () => {
   //   console.log(dataS);
 
   return (
-    <div className="home-container">
-      {dataS?.data?.map((data) => (
-        <SingleData key={data.id} data={data}></SingleData>
-      ))}
+    <div>
+      <div className="img-container">
+        <div className="quotes">
+          <h1>Quiz is the best way to cheack your skills</h1>
+          <p>If you want, Play some Quiz,then cheack below</p>
+        </div>
+      </div>
+      <div className="home-container">
+        {dataS?.data?.map((data) => (
+          <SingleData key={data.id} data={data}></SingleData>
+        ))}
+      </div>
     </div>
   );
 };

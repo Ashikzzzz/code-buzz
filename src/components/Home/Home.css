@@ -3,3 +3,28 @@
     grid-template-columns: 2fr 2fr;
     margin-top: 20px;
 }
+.img-container{
+    background-image: url(../../../public/quiz1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img-container::before {
+    content: ""; 
+    position: absolute;
+    top: 92px;
+    left: 175px;
+    width: 74%;
+    height: 50vh;
+    background-color: black;
+    opacity: .4;
+    /* z-index: -1; */
+}
+.quotes{
+    padding-top: 210px;
+    color:black;
+    z-index: 1;
+}
