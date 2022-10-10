@@ -1,0 +1,38 @@
+.data-container img{
+    width: 250px;
+    height: 250px;
+}
+.data-container{
+    border: 1px solid gray;
+   margin: 10px 30px;
+   border-radius: 15px;
+   box-shadow: 8px 8px 18px cadetblue;
+   padding: 20px;
+}
+
+.data-container:hover{
+    background-color: rgb(130, 147, 147);
+    box-shadow: 8px 8px 14px rgb(154, 181, 232);
+}
+
+.quiz-btn{
+    padding: 15px 26px;
+    background-color: cadetblue;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+.quiz-btn:hover{
+    background-color: cornflowerblue;
+    color: black;
+} 
+.start-quiz a{
+    text-decoration: none;
+}
+.start-quiz{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 28px;
+}

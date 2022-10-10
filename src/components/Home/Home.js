@@ -9,7 +9,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      {dataS.data.map((data) => (
+      {dataS?.data?.map((data) => (
         <SingleData key={data.id} data={data}></SingleData>
       ))}
     </div>

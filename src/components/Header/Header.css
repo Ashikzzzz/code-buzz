@@ -2,8 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(241, 231, 212);
-    
+    background-color:#3b4564; 
 }
 .header a{
     text-decoration: none;
