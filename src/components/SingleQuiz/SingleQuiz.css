@@ -1,0 +1,22 @@
+.question{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.question1 p{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin-left: 10px;
+    box-shadow: 3px 3px 8px cadetblue;
+}
+
+.quiz-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.question1 p:hover{
+    background-color:cornflowerblue;
+    box-shadow: 3px 3px 8px burlywood;
+    color: wheat;
+}

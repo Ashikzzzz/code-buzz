@@ -20,16 +20,21 @@ function App() {
           element: <Home></Home>,
         },
         {
-          path: "quiz",
-          element: <Quiz></Quiz>,
-        },
-        {
           path: "statistics",
           element: <Statistics></Statistics>,
         },
         {
           path: "blog",
           element: <Blog></Blog>,
+        },
+        {
+          path: "/SingleData/:quizId",
+          loader: async ({ params }) => {
+            return fetch(
+              ` https://openapi.programming-hero.com/api/quiz/${params.quizId}`
+            );
+          },
+          element: <Quiz></Quiz>,
         },
       ],
     },

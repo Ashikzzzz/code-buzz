@@ -12,20 +12,20 @@
 
 .data-container:hover{
     background-color: rgb(130, 147, 147);
-    box-shadow: 8px 8px 14px rgb(154, 181, 232);
+    box-shadow: 12px 12px 30px rgb(154, 181, 232);
 }
 
 .quiz-btn{
     padding: 15px 26px;
-    background-color: cadetblue;
+    background-color:powderblue;
     border-radius: 8px;
     border: none;
-    color: white;
+    color: black;
     font-weight: 500;
 }
 .quiz-btn:hover{
     background-color: cornflowerblue;
-    color: black;
+    color:black;
 } 
 .start-quiz a{
     text-decoration: none;
