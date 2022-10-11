@@ -38,6 +38,7 @@ const SingleQuiz = ({ quiz }) => {
                 name="input-field"
                 onClick={() => handleAnswer(option)}
                 type="radio"
+                key={option.id}
               />
               {option}
             </p>
