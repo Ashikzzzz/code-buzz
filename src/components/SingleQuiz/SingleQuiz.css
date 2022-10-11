@@ -10,11 +10,15 @@
     box-shadow: 3px 3px 8px cadetblue;
 }
 
-.quiz-container{
+/* .quiz-container{
     display: grid;
     grid-template-columns: 3fr 1fr;
+} */
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .question1 p:hover{
     background-color:cornflowerblue;
     box-shadow: 3px 3px 8px burlywood;

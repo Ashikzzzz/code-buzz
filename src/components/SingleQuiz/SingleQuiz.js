@@ -3,10 +3,12 @@ import "./SingleQuiz.css";
 // toast
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const SingleQuiz = ({ quiz }) => {
   // const { options, correctAnswer } = quiz;
-  console.log(quiz);
+  // console.log(quiz);
 
   const handleAnswer = (answer) => {
     // const answer = quiz.correctAnswer;
@@ -16,11 +18,19 @@ const SingleQuiz = ({ quiz }) => {
       toast("Wrong answer");
     }
   };
-
+  const handleRightAns = () => {
+    toast(quiz.correctAnswer);
+  };
   return (
     <div className="quiz-container">
       <div className="question1">
-        <h3>Question: {quiz.question}</h3>
+        <div className="icon">
+          <h3>Question: {quiz.question}</h3>
+          <FontAwesomeIcon
+            onClick={() => handleRightAns(quiz.correctAnswer)}
+            icon={faEye}
+          ></FontAwesomeIcon>
+        </div>
         <div className="question">
           {quiz.options.map((option) => (
             <p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import "./Statistics.css";
 import {
   CartesianGrid,
   Legend,
@@ -14,10 +15,10 @@ const Statistics = () => {
   const statistics = useLoaderData();
 
   return (
-    <div>
+    <div className="chart">
       <LineChart
-        width={500}
-        height={300}
+        width={1000}
+        height={500}
         data={statistics.data}
         margin={{
           top: 5,
@@ -37,7 +38,7 @@ const Statistics = () => {
           stroke="#8884d8"
           activeDot={{ r: 8 }}
         />
-        <Line type="monotone" dataKey="total" stroke="#82ca9d" />
+        <Line type="monotone" dataKey="total" stroke="red" />
       </LineChart>
     </div>
   );
