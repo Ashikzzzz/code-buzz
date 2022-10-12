@@ -1,17 +1,11 @@
 # Quiz Mart
 
-### • Use Routing To Shift Between Page.
+## https://coruscating-palmier-7b858a.netlify.app/
 
-### • Make A Banner.
+### • use FontAwsome
 
-### • Create Database.
+### • USe Toast
 
-### • Create Two Extra Section Related With Website.
+### • Use Rechart
 
-### • Use JWT Token Access.
-
-### • Make Website Responsive For Mobile.
-
-### • Set Environment Variables For Client And Server Side.
-
-### • Create Portfolio Route
+### • use update react router
