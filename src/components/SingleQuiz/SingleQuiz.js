@@ -7,8 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const SingleQuiz = ({ quiz }) => {
-  // const { options, correctAnswer } = quiz;
-  // console.log(quiz);
+  console.log(quiz);
 
   const handleAnswer = (answer) => {
     // const answer = quiz.correctAnswer;

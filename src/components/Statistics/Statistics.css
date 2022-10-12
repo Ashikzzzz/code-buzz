@@ -1,5 +1,15 @@
-.chart{
-    margin-left: 100px;
-    margin-top: 50px;
+#container{
+   
+    margin: 20px auto;
+    border-radius: 30px;
     
+}
+
+@media screen and ( mix-width: 600px){
+    #container{
+        
+        margin: 20px auto;
+        border-radius: 30px;
+       
+    }
 }
